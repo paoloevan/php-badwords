@@ -14,7 +14,9 @@ $new_paragraph = str_replace($bad_word, '***', $paragraph)
     <title>Document</title>
 </head>
 <body>
-    <h3><?php echo $paragraph . " Lunghezza paragrafo: " . strlen($paragraph); ?></h3>
-    <h3><?php echo $new_paragraph . " Lunghezza paragrafo: " . strlen($new_paragraph); ?></h3>
+    <h1><?php echo $paragraph; ?></h1>
+    <h3><?php echo "Lunghezza paragrafo: " . strlen($paragraph); ?></h3>
+    <h1><?php echo $new_paragraph; ?></h1>
+    <h3><?php echo "Lunghezza paragrafo: " . strlen($new_paragraph); ?></h3>
 </body>
 </html>

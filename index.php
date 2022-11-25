@@ -5,12 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi' crossorigin='anonymous'>
 </head>
 <body>
+
     <form action="greetings.php" method="GET">
-        <textarea name="paragraph" id="paragraph" cols="30" rows="10"></textarea>
-        <input name="cersored" type="text">
-        <button type="submit">Invia</button>
+    <div class=" container mb-3">
+      <label for="paragraph" class="form-label">Paragrafo</label>
+      <textarea class="form-control mb-3" name="paragraph" id="paragraph" rows="3"></textarea>
+      <label for="cersored" class="form-label">Parola da censurare</label>
+      <input name="cersored" type="text">
+      <button type="submit">Invia</button>
+    </div>
+
+        <!-- <textarea name="paragraph" id="paragraph" cols="30" rows="10"></textarea>
+        <input name="cersored" type="text"> -->
     </form>
     
 </body>

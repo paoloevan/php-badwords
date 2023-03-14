@@ -2,7 +2,10 @@
 $paragraph = $_GET['paragraph'];
 $bad_word = $_GET['cersored'];
 
-$new_paragraph = str_replace($bad_word, '***', $paragraph)
+$new_paragraph = str_replace($bad_word, '***', $paragraph);
+echo "<pre>";
+var_dump($new_paragraph);
+echo "</pre>"
 ?>
 
 <!DOCTYPE html>
